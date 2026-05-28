@@ -51,7 +51,7 @@ export function AuthForm({ onAuthSuccess }: AuthFormProps) {
           <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
             AI-TaskMind
           </h1>
-          <p className="text-xs text-slate-800">
+          <p className="text-xs text-slate-400">
             {isLogin ? 'Iniciá sesión para gestionar tus proyectos' : 'Creá tu cuenta para empezar'}
           </p>
         </div>
@@ -129,7 +129,7 @@ export function AuthForm({ onAuthSuccess }: AuthFormProps) {
               setIsLogin(!isLogin);
               setError('');
             }}
-            className="text-xs text-indigo-400 hover:text-indigo-300 hover:underline transition-colors"
+            className="text-lg text-indigo-400 hover:text-indigo-300 hover:underline transition-colors"
           >
             {isLogin ? '¿No tenés cuenta? Registrate acá' : '¿Ya tenés cuenta? Iniciá sesión'}
           </button>
