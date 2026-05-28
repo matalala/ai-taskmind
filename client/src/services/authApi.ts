@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const AUTH_URL = 'http://localhost:5000/api/auth';
+const AUTH_URL = 'https://ai-taskmind.onrender.com/api/auth';
 
 export interface AuthResponse {
   token: string;

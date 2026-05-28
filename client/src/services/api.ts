@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = 'https://ai-taskmind.onrender.com/api/tasks';
 
 export interface Subtask {
   _id?: string;
