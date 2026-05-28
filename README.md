@@ -48,7 +48,7 @@ Frontend: Se compila como archivos estáticos y es servido directamente o a trav
 
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/tu-usuario/ai-taskmind.git](https://github.com/tu-usuario/ai-taskmind.git)
+   git clone [https://github.com/matalala/ai-taskmind.git](https://github.com/matalala/ai-taskmind.git)
 
 2. Instala las dependencias:
 
