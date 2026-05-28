@@ -52,8 +52,7 @@ Frontend: Se compila como archivos estáticos y es servido directamente o a trav
 
 2. Instala las dependencias:
 
-   ```Bash
-npm install
+   ```Bash npm install
 
 3. Crea un archivo .env en la raíz basado en el ejemplo:
 
