@@ -56,12 +56,12 @@ Frontend: Se compila como archivos estáticos y es servido directamente o a trav
 npm install
 ```
 3. Crea un archivo .env en la raíz basado en el ejemplo:
-
+```
 Fragmento de código
 AI_PROVIDER=gemini
 GEMINI_API_KEY=tu_api_key_aqui
 MONGODB_URI=tu_string_de_conexion
-
+```
 4. Inicia el servidor:
 
 ```Bash
