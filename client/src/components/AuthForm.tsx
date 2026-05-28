@@ -51,7 +51,7 @@ export function AuthForm({ onAuthSuccess }: AuthFormProps) {
           <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
             AI-TaskMind
           </h1>
-          <p className="text-xs text-slate-400">
+          <p className="text-xs text-slate-800">
             {isLogin ? 'Iniciá sesión para gestionar tus proyectos' : 'Creá tu cuenta para empezar'}
           </p>
         </div>
